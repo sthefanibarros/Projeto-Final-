@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    background-color: #240F6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+section{
+    background-color: blueviolet;
+    height: 600px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 2em;
+    align-items: center;
+}
+
+#contato{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+    height: 400px;
+    
+}
+
+footer{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around ;
+    color: white;
+    font-size: 20px;
+}
+
+.input{
+    width: 500px;
+    height: 50px;
+
+}
+
+.input_mensagem{
+    height: 150px ;
+    margin: 20px 0;
+    width: 500px;
+}
+
+.input_botao{
+    width: 200px;
+}
